@@ -3,6 +3,12 @@
 $routes['__defaultAction'] = 'index';
 $routes['__defaultController'] = 'main';
 
+$routes['inscreva-se'] = "main/inscricoes_gratuitas";
+$routes['envolva-se'] = "main/envolva_se";
+$routes['palestrantes'] = "main/palestrantes";
+$routes['inscricoes'] = "main/inscricoes_gratuitas";
+$routes['inscricoes_gratuitas'] = "main/inscricoes_gratuitas";
+
 //Route example (you can also see more at Router documentation)
 //$routes['example'] = "exampleController";
 //$routes['example/([[:alnum:]&:-@_]+)'] = "exampleController/$1";

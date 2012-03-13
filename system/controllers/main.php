@@ -4,18 +4,20 @@ class main extends Controller {
         $this->loadView('masterPage', array());
 	}
 
-	public function salvarNovoUsuario() {
-		//Salvando novo usuário
-		$usuario = new Usuarios();
-		$usuario->nome = $_POST['nome'];
-		$usuario->sobrenome = $_POST['sobrenome'];
-		$usuario->login = $_POST['login'];
-		$usuario->password = md5($_POST['password']);
-		$usuario->nascimento = $_POST['nascimento'];
-		$usuario->genero = $_POST['genero'];
+	public function inscricoes_gratuitas() {
+		$this->notImplemented();
+	}
 
-		//Executando a automágica ;)
-		$usuario->save();
+	public function envolva_se() {
+		$this->notImplemented();
+	}
+
+	public function palestrantes() {
+		$this->notImplemented();
+	}
+
+	protected function notImplemented() {
+		print "NOT IMPLEMENTED YET!";
 	}
 }
 ?>
