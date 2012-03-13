@@ -136,45 +136,7 @@ $(document).ready(function(){
 
 <body>
 
-<!-- Start of social bar wrapper -->
-<div id="social_bar_wrapper">
-    
-    <!-- Start of social_bar -->
-    <div id="social_bar">
-    
-        <ul id="social">
-  <li class="trigger"></li>
-  <!-- Start of google -->
-  
-  <li class="google"> <a href="http://google.com" target="_blank"><img src="${SYS_BASE_URL}public/img/google1.png" width="30" height="30" alt="google" /></a> </li>
-  <!-- Start of facebook -->
-  
-  <li class="facebook"> <a href="http://facebook.com" target="_blank"><img src="${SYS_BASE_URL}public/img/facebook1.png" width="30" height="30" alt="facebook" /></a> </li>
-  <!-- Start of twitter -->
-  
-  <li class="twitter"> <a href="http://twitter.com" target="_blank"><img src="${SYS_BASE_URL}public/img/twitter1.png" width="30" height="30" alt="twitter" /></a> </li>
-  <!-- Start of linkedin -->
-  
-  <li class="linkedin"> <a href="http://linkedin.com" target="_blank"><img src="${SYS_BASE_URL}public/img/linkedin1.png" width="30" height="30" alt="linkedin" /></a> </li>
-  <!-- Start of dribbble -->
-  
-  <li class="dribbble"> <a href="http://dribbble.com" target="_blank"><img src="${SYS_BASE_URL}public/img/dribbble1.png" width="30" height="30" alt="dribbble" /></a> </li>
-</ul>
-        
-        <!-- Start of search -->
-		<ul id="search">
-  			<li class="searchtrigger">
-            
-            <form>
-            	<input type="text" value="Search" id="" name="s" onblur="if(this.value == '') { this.value = 'Search'; }" onfocus="if(this.value == 'Search') { this.value = ''; }" class="" />
-            </form>
-            
-            </li>
-        </ul><!-- End of search -->
-        
-    </div><!-- End of social bar -->
 
-</div><!-- End of social bar wrapper -->
 
 <!-- Start of menu wrapper -->
 <div id="menu_wrapper">
@@ -237,7 +199,7 @@ $(document).ready(function(){
 
     <!-- Start of slider caption -->
     <div id="slider_caption">
-		<p>FLISOL CAMPINAS 2012 | Fórum Latino Americano de Instalação de Software Livre</p>
+		<p>FLISOL CAMPINAS 2012 | Fórum Latino Americano de Instalação de Software Livre <br/> Estão abertas as <a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscrições Gratuitas</a> e também a <a href="${SYS_BASE_URL}call_for_papers">Chamada para Trabalhos</a>.</p>
     
         <!-- Start of slider link -->
         <div id="slider_link">
@@ -341,7 +303,7 @@ $(document).ready(function(){
             
             <span class="dropcap_black">4</span>
             
-            <h5><a href="#">Palestra XPTO 4.</a></h5>
+            <h5><a href="#">Palestra XPTO 4064-unobtrusive-page-changer.</a></h5>
                 
             <p>Curabitur blandit tempus porttitor. Integer posuere erat a <a href="#">ante venenatis</a> dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in.</p>
                 
