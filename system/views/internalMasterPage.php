@@ -200,7 +200,7 @@ $(document).ready(function(){
         
         <a href="#"><img src="${SYS_BASE_URL}public/img/footer_logo.png" height="34" width="209" alt="bottom logo" /></a>
         
-        <p>Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        <p>Construído em by PhpBURN, um framework Open Source para um desenvolvimento seguro, poderoso e rápido em PHP com uma baixa curva de aprendizagem e um forte poder de abstração e educação ao programador. Licença GPL 2.0. <br/> Visite: <a href="http://www.phpburn.com" target="_blank">www.phpburn.com</a></p>
         
         </div><!-- End of footer widget -->
                 
