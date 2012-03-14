@@ -45,6 +45,21 @@ class main extends Controller {
 		$viewData['mainContent'] = $this->loadView('principal/participe',array(),true);
     $this->loadView('internalMasterPage', $viewData);
 	}
+  
+  /**
+   * Tela de Patrocinio 
+   */
+  public function patrocine() {
+		$this->areaTitle = "Ajude a fazer deste um evento ainda melhor";
+    $this->breadcrumb = array(
+        "Principal" => SYS_BASE_URL,
+        "Participe" => SYS_BASE_URL . "participe",
+        "Apoio"
+    );
+    
+		$viewData['mainContent'] = $this->loadView('principal/patrocine',array(),true);
+    $this->loadView('internalMasterPage', $viewData);
+	}
 
   /**
    * Tela onde serão exibidos os Palestrantes do evento 
