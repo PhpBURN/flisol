@@ -4,7 +4,7 @@ $routes['__defaultAction'] = 'index';
 $routes['__defaultController'] = 'main';
 
 $routes['inscreva-se'] = "main/inscricoes_gratuitas";
-$routes['envolva-se'] = "main/envolva_se";
+$routes['participe'] = "main/participe";
 $routes['palestrantes'] = "main/palestrantes";
 $routes['inscricoes'] = "main/inscricoes_gratuitas";
 $routes['inscricoes_gratuitas'] = "main/inscricoes_gratuitas";

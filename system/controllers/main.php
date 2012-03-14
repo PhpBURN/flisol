@@ -9,7 +9,7 @@ class main extends Controller {
     $this->areaTitle = "Inscrições Gratuitas";
     $this->breadcrumb = array(
         "Principal" => SYS_BASE_URL,
-        "Envolva-se"=> SYS_BASE_URL . "envolva-se",
+        "Participe"=> SYS_BASE_URL . "participe",
         "Inscrições Gratuitas"
     );
     
@@ -17,8 +17,15 @@ class main extends Controller {
     $this->loadView('internalMasterPage', $viewData);
 	}
 
-	public function envolva_se() {
-		$this->notImplemented();
+	public function participe() {
+		$this->areaTitle = "Veja como participar do Flisol 2012";
+    $this->breadcrumb = array(
+        "Principal" => SYS_BASE_URL,
+        "Participe"
+    );
+    
+		$viewData['mainContent'] = $this->loadView('principal/participe',array(),true);
+    $this->loadView('internalMasterPage', $viewData);
 	}
 
 	public function palestrantes() {

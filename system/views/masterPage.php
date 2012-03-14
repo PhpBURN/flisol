@@ -161,7 +161,7 @@ $(document).ready(function(){
                                 
                 <li><a href="${SYS_BASE_URL}palestrantes">Palestrantes <span>Veja aqui as palestras e workshops para 2012</span></a></li>
                 
-                <li><a href="${SYS_BASE_URL}envolva-se">Envolva-se <span>Ajude a fazer deste evento um grande sucesso</span></a></li>
+                <li><a href="${SYS_BASE_URL}participe">Envolva-se <span>Ajude a fazer deste evento um grande sucesso</span></a></li>
             
             </ul>
 
@@ -205,7 +205,7 @@ $(document).ready(function(){
         <!-- Start of slider link -->
         <div id="slider_link">
         
-        <a href="${SYS_BASE_URL}envolva-se">Participe!</a>
+        <a href="${SYS_BASE_URL}participe">Participe!</a>
             
         </div><!-- End of slider link -->
     
