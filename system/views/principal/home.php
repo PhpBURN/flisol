@@ -1,43 +1,99 @@
 <!-- Start of portfolio wrapper -->
 <div id="portfolio_wrapper">
 
-  <h2>Patrocinadores Gold</h2>
+<!--  <h2>Participe</h2>-->
 
-  <!-- Start of one third first -->
-  <div class="one_third_first">
+  <!-- Start of portfolio bg -->
+  <div id="portfolio-bg" class="clearfix">
 
-    <!-- Start of featured image portfolio -->
-    <div class="featured_image_portfolio">
+    <!-- Start of image grid -->
+    <ul class="image-grid grid clearfix">
 
-      <a href="#"><img src="${SYS_BASE_URL}public/img/portfolio1.jpg" alt="portfolio item 1" /></a>
+      <!-- ******************** THIS IS THE START OF PORTFOLIO ITEM ******************** -->
 
-    </div><!-- End of featured image portfolio -->
+      <li class="term-39" data-id="id-1">
 
-  </div><!-- End of one third first -->
+        <div class="view view-first"><!-- Start of view container -->
 
-  <!-- Start of one third -->
-  <div class="one_third">
 
-    <!-- Start of featured image portfolio -->
-    <div class="featured_image_portfolio">
+          <img src="${SYS_BASE_URL}public/img/inscreva-se.jpg" alt="Inscreva-se" width="305" height="227"/>
 
-      <a href="#"><img src="${SYS_BASE_URL}public/img/portfolio2.jpg" alt="portfolio item 2" /></a>
+          <div class="mask"><!-- Start of mask -->
 
-    </div><!-- End of featured image portfolio -->
+            <h5>INSCREVA-SE GRATUITAMENTE</h5>
+            <p>É rápido, gratuito e principalmente, é LIVRE!</p>
 
-  </div><!-- End of one third -->
+            <a href="${SYS_BASE_URL}inscricoes_gratuitas" class="info">Inscreva-se</a> 
 
-  <!-- Start of one third -->
-  <div class="one_third">
+          </div><!-- End of mask -->
 
-    <!-- Start of featured image portfolio -->
-    <div class="featured_image_portfolio">
+        </div><!-- end of view container -->
 
-      <a href="#"><img src="${SYS_BASE_URL}public/img/portfolio3.jpg" alt="portfolio item 3" /></a>
+        <span class="tiny"><a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscreva-se</a></span>
 
-    </div><!-- End of featured image portfolio -->
+      </li>
 
-  </div><!-- End of one third -->               
+      <!-- ******************** THIS IS THE END OF PORTFOLIO ITEM ******************** -->
+
+
+
+      <!-- ******************** THIS IS THE START OF PORTFOLIO ITEM ******************** -->
+
+      <li class="term-36" data-id="id-2">
+
+        <div class="view view-first"><!-- Start of view container -->
+
+
+          <img src="${SYS_BASE_URL}public/img/callforpapers.jpg" alt="Call for Papers" width="305" height="227"/>
+
+          <div class="mask"><!-- Start of mask -->
+
+            <h5>Call for Papers</h5>
+            <p>Cadastre sua palestra e/ou workshop e nos ajude a tornar este evento ainda melhor.</p>
+
+            <a href="portfolio_single.html" class="info">Cadastre-se</a> 
+
+          </div><!-- End of mask -->
+
+        </div><!-- end of view container -->
+
+        <span class="tiny"><a href="portfolio_single.html">Cadastre sua Palestra/Workshop</a></span>
+
+      </li>
+
+      <!-- ******************** THIS IS THE END OF PORTFOLIO ITEM ******************** -->
+
+
+
+      <!-- ******************** THIS IS THE START OF PORTFOLIO ITEM ******************** -->
+
+      <li class="term-37" data-id="id-3">
+
+        <div class="view view-first"><!-- Start of view container -->
+
+
+          <img src="${SYS_BASE_URL}public/img/patrocine.jpg" alt="Patrocine" width="305" height="227"/>
+
+          <div class="mask"><!-- Start of mask -->
+
+            <h5>Patrocine</h5>
+            <p>Patrocine este evento e ligue o nome de sua empresa ao mundo do Software Livre</p>
+
+            <a href="portfolio_single.html" class="info">Patrocine</a> 
+
+          </div><!-- End of mask -->
+
+        </div><!-- end of view container -->
+
+        <span class="tiny"><a href="portfolio_single.html">Patrocine</a></span>
+
+      </li>
+
+      <!-- ******************** THIS IS THE END OF PORTFOLIO ITEM ******************** -->
+
+    </ul><!-- End of image grid -->
+
+  </div><!-- End of portfolio bg -->             
 
 </div><!-- End of portfolio wrapper -->
 

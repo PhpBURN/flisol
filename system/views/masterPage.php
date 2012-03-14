@@ -181,13 +181,7 @@ $(document).ready(function(){
     
         <ul class="slides">
             <li>
-                <img src="${SYS_BASE_URL}public/img/slide.jpg" alt="slide 1" />
-            </li>
-            <li>
-                <img src="${SYS_BASE_URL}public/img/slide2.jpg" alt="slide 2" />
-            </li>
-            <li>
-                <img src="${SYS_BASE_URL}public/img/slide3.jpg" alt="slide 3" />
+                <img src="${SYS_BASE_URL}public/img/slider_bannerFlisol.jpg" alt="Flisol Campinas 2012" />
             </li>
         </ul>
         
