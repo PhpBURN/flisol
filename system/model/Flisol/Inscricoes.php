@@ -30,10 +30,11 @@ class Inscricoes extends PhpBURN_Core {
   public function _mapping() {
     $this->getMap()->addField( "idInscricao","idInscricao", "int", 10, array("primary" => 1, "not_null" => 1, "auto_increment" => 1) );
     $this->getMap()->addField( "nome","nome", "varchar", 45, array("not_null" => 1) );
-    $this->getMap()->addField( "sobrenome","sobrenome", "varchar", 45, array("not_null" => 1) );
+    $this->getMap()->addField( "sobrenome","sobrenome", "varchar", 255, array("not_null" => 1) );
     $this->getMap()->addField( "rg","rg", "varchar", 45, array("not_null" => 1) );
-    $this->getMap()->addField( "email","email", "varchar", 45, array("not_null" => 1) );
+    $this->getMap()->addField( "email","email", "varchar", 255, array("not_null" => 1) );
     $this->getMap()->addField( "website","website", "varchar", 45, array() );
+    $this->getMap()->addField( "cidade","cidade", "varchar", 45, array() );
     $this->getMap()->addField( "dataCriacao","dataCriacao", "timestamp", null, array("not_null" => 1, "default_value" => 'CURRENT_TIMESTAMP') );
 
   }

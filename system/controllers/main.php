@@ -79,11 +79,11 @@ class main extends Controller {
     $insc = new Inscricoes();
     
     $insc->nome = $_POST['nome'];
-    $insc->sobrenome = $_POST['nome'];
-    $insc->rg = $_POST['nome'];
-    $insc->email = $_POST['nome'];
-    $insc->website = $_POST['nome'];
-    $insc->cidade = $_POST['nome'];
+    $insc->sobrenome = $_POST['sobrenome'];
+    $insc->rg = $_POST['rg'];
+    $insc->email = $_POST['email'];
+    $insc->website = $_POST['site'];
+    $insc->cidade = $_POST['cidade'];
     
     if($insc->save()) {
       $viewData['pessoa'] = $insc->toArray();

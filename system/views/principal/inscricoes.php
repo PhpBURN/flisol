@@ -96,12 +96,12 @@
         
         <li class="short">
           <label>Cidade<span class="required"></span></label>
-          <input type="text" name="cidade" id="cidade" placeholder="Cidade" class="requiredField" />
+          <input type="text" name="cidade" id="cidade" placeholder="Cidade/Estado" class="requiredField" />
         </li>
 
         <li class="short">
           <label>Website</label>
-          <input type="text" name="site" id="site" value="Website" class="requiredField" />
+          <input type="text" name="site" id="site" value="Website" />
         </li>
 
         <li class="button"><input name="submitted" id="submitted" value="Submit" class="submit" type="submit" />
