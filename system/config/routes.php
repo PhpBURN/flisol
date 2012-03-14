@@ -8,6 +8,7 @@ $routes['participe'] = "main/participe";
 $routes['palestrantes'] = "main/palestrantes";
 $routes['inscricoes'] = "main/inscricoes_gratuitas";
 $routes['inscricoes_gratuitas'] = "main/inscricoes_gratuitas";
+$routes['call_for_papers'] = "main/call_for_papers";
 
 //Route example (you can also see more at Router documentation)
 //$routes['example'] = "exampleController";

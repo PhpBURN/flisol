@@ -31,6 +31,18 @@ class main extends Controller {
 	public function palestrantes() {
 		$this->notImplemented();
 	}
+  
+  public function call_for_papers() {
+    $this->areaTitle = "Chamada para Trabalhos";
+    $this->breadcrumb = array(
+        "Principal" => SYS_BASE_URL,
+        "Participe" => SYS_BASE_URL . 'participe',
+        "Call for Papers"
+    );
+    
+		$viewData['mainContent'] = $this->loadView('principal/callforpapers',array(),true);
+    $this->loadView('internalMasterPage', $viewData);
+  }
 
 	protected function notImplemented() {
 		print "NOT IMPLEMENTED YET!";

@@ -51,13 +51,13 @@
             <h5>Call for Papers</h5>
             <p>Cadastre sua palestra e/ou workshop e nos ajude a tornar este evento ainda melhor.</p>
 
-            <a href="portfolio_single.html" class="info">Cadastre-se</a> 
+            <a href="${SYS_BASE_URL}call_for_papers" class="info">Cadastre-se</a> 
 
           </div><!-- End of mask -->
 
         </div><!-- end of view container -->
 
-        <span class="tiny"><a href="portfolio_single.html">Cadastre sua Palestra/Workshop</a></span>
+        <span class="tiny"><a href="${SYS_BASE_URL}call_for_papers">Cadastre sua Palestra/Workshop</a></span>
 
       </li>
 
