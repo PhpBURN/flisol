@@ -130,7 +130,7 @@ $(document).ready(function(){
         <!-- Start of top logo -->
         <div id="top_logo">
         
-        <a href="index.html"><img src="${SYS_BASE_URL}public/img/logo.png" height="60" width="247" alt="Flisol Campinas 2012" /></a>
+        <a href="${SYS_BASE_URL}"><img src="${SYS_BASE_URL}public/img/logo.png" height="60" width="247" alt="Flisol Campinas 2012" /></a>
         
         </div><!-- End of top logo -->
         
