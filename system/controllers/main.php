@@ -65,7 +65,7 @@ class main extends Controller {
    * Tela onde serão exibidos os Palestrantes do evento 
    */
 	public function palestrantes() {
-		$this->notImplemented();
+		$this->notImplemented('Em breve disponibilizaremos aqui a agenda de palestras e workshops');
 	}
   
   /**
@@ -108,8 +108,12 @@ class main extends Controller {
     }
   }
   
-	protected function notImplemented() {
-		print "NOT IMPLEMENTED YET!";
+	protected function notImplemented($message) {
+		$viewData['title'] = "Aguarde...";
+    $viewData['message'] = $message;
+    
+    $viewData['mainContent'] = $this->loadView('principal/message', $viewData, true);
+    $this->loadView('masterPage', $viewData);
 	}
   
   /**
