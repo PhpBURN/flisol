@@ -14,7 +14,7 @@
         <div class="view view-first"><!-- Start of view container -->
 
 
-          <img src="${SYS_BASE_URL}public/img/portfolio1.jpg" alt="Portfolio 1" width="305" height="227"/>
+          <img src="${SYS_BASE_URL}public/img/inscreva-se.jpg" alt="Portfolio 1" width="305" height="227"/>
 
           <div class="mask"><!-- Start of mask -->
 
@@ -42,7 +42,7 @@
         <div class="view view-first"><!-- Start of view container -->
 
 
-          <img src="${SYS_BASE_URL}public/img/portfolio2.jpg" alt="Portfolio 2" width="305" height="227"/>
+          <img src="${SYS_BASE_URL}public/img/callforpapers.jpg" alt="Portfolio 2" width="305" height="227"/>
 
           <div class="mask"><!-- Start of mask -->
 
@@ -70,7 +70,7 @@
         <div class="view view-first"><!-- Start of view container -->
 
 
-          <img src="${SYS_BASE_URL}public/img/portfolio3.jpg" alt="Portfolio 3" width="305" height="227"/>
+          <img src="${SYS_BASE_URL}public/img/patrocine.jpg" alt="Portfolio 3" width="305" height="227"/>
 
           <div class="mask"><!-- Start of mask -->
 
