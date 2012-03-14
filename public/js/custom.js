@@ -361,7 +361,7 @@ $(document).ready(function() {
 			var formInput = $(this).serialize();
 			$.post($(this).attr('action'),formInput, function(data){
 				$('form#contact_form').slideUp("fast", function() {
-					$(this).before('<p class="success">Thanks! Your email was successfully sent. We will contact you as soon as possible.</p>');
+					$(this).before(data);
 				});
 			});
 		}

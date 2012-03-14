@@ -83,6 +83,11 @@
           <label>Sobrenome<span class="required"></span></label>
           <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" class="requiredField" />
         </li>
+        
+        <li class="short">
+          <label>RG<span class="required"></span></label>
+          <input type="text" name="rg" id="rg" placeholder="RG" class="requiredField" />
+        </li>
 
         <li class="long">
           <label>Email<span class="required"></span></label>					

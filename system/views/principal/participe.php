@@ -77,13 +77,13 @@
             <h5>Patrocine</h5>
             <p>Patrocine este evento e ligue o nome de sua empresa ao mundo do Software Livre</p>
 
-            <a href="portfolio_single.html" class="info">Patrocine</a> 
+            <a href="${SYS_BASE_URL}patrocine" class="info">Patrocine</a> 
 
           </div><!-- End of mask -->
 
         </div><!-- end of view container -->
 
-        <span class="tiny"><a href="portfolio_single.html">Patrocine</a></span>
+        <span class="tiny"><a href="${SYS_BASE_URL}patrocine">Patrocine</a></span>
 
       </li>
 

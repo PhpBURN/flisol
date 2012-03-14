@@ -68,6 +68,31 @@ class main extends Controller {
     $this->loadView('internalMasterPage', $viewData);
   }
 
+  public function registrar_inscricao() {
+    $this->areaTitle = "Chamada para Trabalhos";
+    $this->breadcrumb = array(
+        "Principal" => SYS_BASE_URL,
+        "Participe" => SYS_BASE_URL . 'participe',
+        "Confirmação de Inscrição"
+    );
+    
+    $insc = new Inscricoes();
+    
+    $insc->nome = $_POST['nome'];
+    $insc->sobrenome = $_POST['nome'];
+    $insc->rg = $_POST['nome'];
+    $insc->email = $_POST['nome'];
+    $insc->website = $_POST['nome'];
+    $insc->cidade = $_POST['nome'];
+    
+    if($insc->save()) {
+      $viewData['pessoa'] = $insc->toArray();
+      $viewData['mainContent'] = $this->loadView('principal/confirma_inscricao', $viewData);
+    } else {
+      print "Problema ao executar a operação!";
+    }
+  }
+  
 	protected function notImplemented() {
 		print "NOT IMPLEMENTED YET!";
 	}
