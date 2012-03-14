@@ -106,7 +106,7 @@
 
   <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider" width="960" height="30" style="padding:20px 0 20px 0;"/>
   
-  <h2>Palestras e Workshops ( Em Breve )</h2>
+  <h2>Palestras ( Em Breve )</h2>
   
 <!--   Start of one fourth first 
   <div class="one_fourth_first">
@@ -161,19 +161,19 @@
 <!-- Start of recent post wrapper -->
 <div id="recent_post_wrapper">
 
-  <h2>RECENT POSTS</h2>
+  <h2>Workshops ( Em Breve )</h2>
 
-  <!-- Start of one third first -->
+<!--   Start of one third first 
   <div class="one_third_first">
 
-    <!-- Start of featured image portfolio -->
+     Start of featured image portfolio 
     <div class="featured_image_portfolio">
 
       <a href="#"><img src="${SYS_BASE_URL}public/img/portfolio4.jpg" alt="portfolio item 1" /></a>
 
-    </div><!-- End of featured image portfolio -->
+    </div> End of featured image portfolio 
 
-    <!-- Start of featured content portfolio -->
+     Start of featured content portfolio 
     <div class="featured_content_portfolio">
 
       <h5><a href="#">Project One</a></h5>
@@ -182,21 +182,21 @@
 
       <div class="blog_readmore"><a href="#">Read More</a></div>
 
-    </div><!-- End of featured content portfolio -->
+    </div> End of featured content portfolio 
 
-  </div><!-- End of one third first -->
+  </div> End of one third first 
 
-  <!-- Start of one third -->
+   Start of one third 
   <div class="one_third">
 
-    <!-- Start of featured image portfolio -->
+     Start of featured image portfolio 
     <div class="featured_image_portfolio">
 
       <a href="#"><img src="${SYS_BASE_URL}public/img/portfolio5.jpg" alt="portfolio item 2" /></a>
 
-    </div><!-- End of featured image portfolio -->
+    </div> End of featured image portfolio 
 
-    <!-- Start of featured content portfolio -->
+     Start of featured content portfolio 
     <div class="featured_content_portfolio">
 
       <h5><a href="#">Project Two</a></h5>
@@ -205,21 +205,21 @@
 
       <div class="blog_readmore"><a href="#">Read More</a></div>
 
-    </div><!-- End of featured content portfolio -->
+    </div> End of featured content portfolio 
 
-  </div><!-- End of one third -->
+  </div> End of one third 
 
-  <!-- Start of one third -->
+   Start of one third 
   <div class="one_third">
 
-    <!-- Start of featured image portfolio -->
+     Start of featured image portfolio 
     <div class="featured_image_portfolio">
 
       <a href="#"><img src="${SYS_BASE_URL}public/img/portfolio6.jpg" alt="portfolio item 3" /></a>
 
-    </div><!-- End of featured image portfolio -->
+    </div> End of featured image portfolio 
 
-    <!-- Start of featured content portfolio -->
+     Start of featured content portfolio 
     <div class="featured_content_portfolio">
 
       <h5><a href="#">Project Three</a></h5>
@@ -228,8 +228,8 @@
 
       <div class="blog_readmore"><a href="#">Read More</a></div>
 
-    </div><!-- End of featured content portfolio -->
+    </div> End of featured content portfolio 
 
-  </div><!-- End of one third -->
+  </div> End of one third -->
 
 </div><!-- End of recent post wrapper -->

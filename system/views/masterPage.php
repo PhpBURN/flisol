@@ -183,6 +183,9 @@ $(document).ready(function(){
             <li>
                 <img src="${SYS_BASE_URL}public/img/slider_bannerFlisol.jpg" alt="Flisol Campinas 2012" />
             </li>
+            <li>
+                <img src="${SYS_BASE_URL}public/img/slider_policamp.jpg" alt="Faculdade POLICAMP" />
+            </li>
         </ul>
         
     </div><!-- End of slider -->
@@ -225,9 +228,9 @@ $(document).ready(function(){
         <!-- Start of footer widget -->
         <div id="footer_widget">
         
-        <a href="#"><img src="${SYS_BASE_URL}public/img/footer_logo.png" height="34" width="209" alt="bottom logo" /></a>
+        <a href="http://www.phpburn.com" target="_blank"><img src="${SYS_BASE_URL}public/img/footer_logo.png" height="34" width="209" alt="bottom logo" /></a>
         
-        <p>Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        <p>Construído em by PhpBURN, um framework Open Source para um desenvolvimento seguro, poderoso e rápido em PHP com uma baixa curva de aprendizagem e um forte poder de abstração e educação ao programador. Licença GPL 2.0. <br/> Visite: <a href="http://www.phpburn.com" target="_blank">www.phpburn.com</a></p>
         
         </div><!-- End of footer widget -->
                 
