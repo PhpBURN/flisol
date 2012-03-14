@@ -38,17 +38,9 @@
 <script type="text/javascript" src="${SYS_BASE_URL}public/js/jquery.prettyPhoto.js"> </script>
 <script type="text/javascript" src="${SYS_BASE_URL}public/js/jquery.quicksand.js"> </script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#form").val();
-});
-</script>
-
-<!-- END OF SCRIPT FOR FORM -->
 <!--Mobile Fix for header-->
 <script type="text/javascript">
 $(document).ready(function(){
-
 	$('.trigger').bind('touchstart', function(){
     $('ul#.social').addClass('thover');
     return false;
@@ -62,6 +54,7 @@ $(document).ready(function(){
     $(this).removeClass('thover');
 });
 });
+
 </script>
 <!--End Mobile Script-->
 
@@ -99,16 +92,6 @@ window.location = $(this).find("option:selected").val();
 </script>
 
 <!-- *************************************************************************
-*********************   THIS IS THE SLIDER JS    **************************
-************************************************************************** -->
-<script type="text/javascript">
-$(window).load(function() {
-			$('#slider').flexslider();
-		});
-		
-</script>
-
-<!-- *************************************************************************
 *********************   THIS IS THE SOCIAL JS    **************************
 ************************************************************************** -->
 
@@ -131,13 +114,12 @@ $(document).ready(function(){
 </script>
 <![endif]--> 
 
-<!-- END OF SCRIPT FOR SOCIAL -->
+
+<!-- END OF SCRIPT FOR SOCIAL --> 
 
 </head>
 
 <body>
-
-
 
 <!-- Start of menu wrapper -->
 <div id="menu_wrapper">
@@ -174,49 +156,34 @@ $(document).ready(function(){
 </div><!-- End of menu wrapper -->
 
 <!-- Start of slider wrapper -->
-<div id="slider_wrapper2">
+<div id="slider_wrapper">
 
-	<!-- Start of slider -->
-    <div id="slider">
-    
-        <ul class="slides">
-            <li>
-                <img src="${SYS_BASE_URL}public/img/slide.jpg" alt="slide 1" />
-            </li>
-            <li>
-                <img src="${SYS_BASE_URL}public/img/slide2.jpg" alt="slide 2" />
-            </li>
-            <li>
-                <img src="${SYS_BASE_URL}public/img/slide3.jpg" alt="slide 3" />
-            </li>
-        </ul>
+	<!-- Start of breadcrumb wrapper -->
+    <div id="breadcrumb_wrapper">
+
+        <h1 tal:content="structure tplAreaTitle | nothing">Título da Área</h1>
         
-    </div><!-- End of slider -->
+            <!-- Start of breadcrumb -->
+            <div id="breadcrumb" tal:condition="exists: tplBreadcrumb">
+        
+                <!-- Start of breadcrumb ul -->
+                <ul tal:content="structure tplBreadcrumb">
+        
+                    <li><a href="index.html">Home</a></li>
+                    <li>&#8250;&nbsp; Contact</li>
+        
+                </ul><!-- End of breadcrumb ul -->
+        
+            </div><!-- End of breadcrumb -->
+            
+	</div><!-- End of breadcrumb wrapper -->
 
 </div><!-- End of slider wrapper -->
-
-<!-- Start of slider caption wrapper -->
-<div id="slider_caption_wrapper">
-
-    <!-- Start of slider caption -->
-    <div id="slider_caption">
-		<p>FLISOL CAMPINAS 2012 | Festival Latino Americano de Instalação de Software Livre <br/> Estão abertas as <a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscrições Gratuitas</a> e também a <a href="${SYS_BASE_URL}call_for_papers">Chamada para Trabalhos</a>.</p>
-    
-        <!-- Start of slider link -->
-        <div id="slider_link">
-        
-        <a href="${SYS_BASE_URL}envolva-se">Participe!</a>
-            
-        </div><!-- End of slider link -->
-    
-    </div><!-- End of slider caption -->
-
-</div><!-- End of slider caption wrapper -->
 
 <!-- Start of wrapper -->
 <div id="wrapper" tal:content="structure mainContent">
 
-	AQUI VAI O CONTEÚDO DO SITE
+	AQUI VAI SEU CONTEUDO
 
 </div><!-- End of wrapper -->
 
