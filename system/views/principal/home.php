@@ -106,7 +106,32 @@
 
   <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider" width="960" height="30" style="padding:20px 0 20px 0;"/>
   
-  <h2>Palestras ( Em Breve )</h2>
+  <h2>Palestras</h2>
+  
+  <table class="table-lectures">
+    <tr><td>linuxacessivel.org - Ubuntu para deficiêntes visuais</td></tr>
+    <tr><td>Ubuntu - Linux para seres humanos.</td></tr>
+    <tr><td>Criação Multimídia com o Blender 3D</td></tr>
+    <tr><td>LibreOffice e o DCFOSS da Itaipu Binacional</td></tr>
+    <tr><td>Gerenciamento de Redes com Zabbix</td></tr>
+    <tr><td>Linguagem Python e suas aplicacoes.</td></tr>
+    <tr><td>O que é Linux?</td></tr>
+    <tr><td>Plataforma Radiuino (Rádio + Arduino) para Soluções Sem Fio</td></tr>
+    <tr><td>Workshop – Implementação de uma solução Sem Fio com a Plataforma Radiuino</td></tr>
+    <tr><td>Tem Pinguim na Rede</td></tr>
+    <tr><td>O que é Drupal e como o instalar localmente?</td></tr>
+    <tr><td>Esteganografia com PHP</td></tr>
+    <tr><td>Abra Seu Código</td></tr>
+    <tr><td>Palestra sobre a linguagem Python e suas aplicacoes.</td></tr>
+    <tr><td>HTML, Semântica e Microdata</td></tr>
+    <tr><td>Administração de Servidores Rápido e Prático</td></tr>
+    <tr><td>Ardour plataforma de produção Livre</td></tr>
+    <tr><td>Puppet: Gerenciamento Automágico de Configuração</td></tr>
+    <tr><td>Under-engineer</td></tr>
+    <tr><td>Mão na Massa Inkscape básico</td></tr>
+    <tr><td>Segurança em Aplicações Web e Software Livre (OWASP);</td></tr>
+    <tr><td>Flumotion - Uma solução livre para streaming na web</td></tr>
+  </table>
   
 <!--   Start of one fourth first 
   <div class="one_fourth_first">
