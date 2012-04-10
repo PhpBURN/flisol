@@ -44,7 +44,7 @@
 <div class="full_width2">
 
 
-  <p tal:content="palestra/descricao">Nulla consequat massa quis enim. <span class="highlight">Donec pede justo</span>, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, <a href="#">venenatis vitae,</a> justo. Vivamus vestibulum magna et eros interdum ut ullamcorper purus lobortis. Vestibulum non augue quis sem pulvinar ornare. Vestibulum ornare eros in urna suscipit ullamcorper.</p>
+  <p tal:content="strucutre palestra/descricao">Nulla consequat massa quis enim. <span class="highlight">Donec pede justo</span>, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, <a href="#">venenatis vitae,</a> justo. Vivamus vestibulum magna et eros interdum ut ullamcorper purus lobortis. Vestibulum non augue quis sem pulvinar ornare. Vestibulum ornare eros in urna suscipit ullamcorper.</p>
 
   <hr />
 

@@ -195,5 +195,13 @@ class main extends Controller {
     }
     return $breadcrumb;
   }
+  
+  public function add_palestra() {
+    $palestra = new Palestras();
+    
+    $viewData['mainContent'] = $this->loadView('palestras/cadastro_oficial', $palestra->toArray(), true);
+    
+    $this->loadView('internalMasterPage', $viewData);
+  }
 }
 ?>
