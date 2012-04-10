@@ -65,8 +65,55 @@ class main extends Controller {
    * Tela onde serão exibidos os Palestrantes do evento 
    */
 	public function palestrantes() {
-		$this->notImplemented('Em breve disponibilizaremos aqui a agenda de palestras e workshops');
+    $this->areaTitle = "Palestras & Oficinas";
+    $this->breadcrumb = array(
+        "Principal" => SYS_BASE_URL,
+        "Participe"=> SYS_BASE_URL . "participe",
+        "Lista de Palestras e Oficinas"
+    );
+    
+    $viewData = array();
+    
+		$palestras = $viewData['palestras'] = new Palestras();
+    $palestras->find();
+    
+    $viewData['mainContent'] = $this->loadView('palestras/home', $viewData,true);
+    
+    $this->loadView('internalMasterPage', $viewData);
 	}
+  
+  public function verPalestra($url) {
+    $url = explode(',', $url);
+    $idPalestra = $url[0];
+    $palestra = new Palestras();
+    if($palestra->get($idPalestra)) {
+      $palestrante = new Inscricoes();
+      $palestrante->get($palestra->idPalestrante);
+      
+      $viewData['palestra'] = $palestra;
+      $viewData['palestrante'] = $palestrante;
+      
+      
+      
+      $this->areaTitle = $palestra->titulo;
+      $this->breadcrumb = array(
+          "Principal" => SYS_BASE_URL,
+          "Participe"=> SYS_BASE_URL . "participe",
+          "Lista de Palestras e Oficinas" => SYS_BASE_URL . 'palestrantes',
+          $palestra->titulo => $palestra->getUrl()
+      );
+
+      
+      $viewData['mainContent'] = $this->loadView('palestras/itemPalestraFull',$viewData, true);
+      $this->loadView('internalMasterPage', $viewData);
+      
+    } else {
+      //Cai na index
+      //@TODO O Ideal era ter uma função chamando uma _errorPage do tipo 404 customizada mas falta tempo pra fazer o layout :)
+      //@klederson
+      $this->index();
+    }
+  }
   
   /**
    * Tela wraper para chamar o formulário que já existia do Google Forms para Chamada de Trabalhos 

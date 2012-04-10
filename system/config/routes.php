@@ -12,6 +12,9 @@ $routes['call_for_papers'] = "main/call_for_papers";
 $routes['registrar_inscricao'] = "main/registrar_inscricao";
 $routes['patrocine'] = "main/patrocine";
 
+//Rota especial para palestras
+$routes['palestras/visualizar/([[:alnum:]\,&:-@_]+)'] = "main/verPalestra/$2";
+
 //Route example (you can also see more at Router documentation)
 //$routes['example'] = "exampleController";
 //$routes['example/([[:alnum:]&:-@_]+)'] = "exampleController/$1";

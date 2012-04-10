@@ -35,6 +35,7 @@ class Inscricoes extends PhpBURN_Core {
     $this->getMap()->addField( "email","email", "varchar", 255, array("not_null" => 1) );
     $this->getMap()->addField( "website","website", "varchar", 45, array() );
     $this->getMap()->addField( "cidade","cidade", "varchar", 45, array() );
+    $this->getMap()->addField( "tipo","tipo", 'enum', "('staff','palestrante','regular','vip','press')", array('default_value' => 'regular') );
     $this->getMap()->addField( "dataCriacao","dataCriacao", "timestamp", null, array("not_null" => 1, "default_value" => 'CURRENT_TIMESTAMP') );
 
   }
