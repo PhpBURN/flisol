@@ -199,9 +199,19 @@ class main extends Controller {
   public function add_palestra() {
     $palestra = new Palestras();
     
-    $viewData['mainContent'] = $this->loadView('palestras/cadastro_oficial', $palestra->toArray(), true);
-    
-    $this->loadView('internalMasterPage', $viewData);
+    if(md5($_POST['key']) == '9eb025b124791e45948be6667f984673') {
+      if($_POST['idPalestra'])
+        $palestra->get($_POST['idPalestra']);
+      
+      $palestra->titulo = $_POST['titulo'];
+      $palestra->idPalestrante = $_POST['idPalestrante'];
+      $palestra->resumo = $_POST['resumo'];
+      $palestra->descricao = $_POST['descricao'];
+      
+      $palestra->save();
+      
+      var_dump($palestra->toArray());
+    }
   }
 }
 ?>
