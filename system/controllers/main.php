@@ -211,6 +211,8 @@ class main extends Controller {
       $palestra->save();
       
       var_dump($palestra->toArray());
+    } else {
+      var_dump('Acesso Negado');
     }
   }
 }
