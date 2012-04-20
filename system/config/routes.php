@@ -13,7 +13,7 @@ $routes['registrar_inscricao'] = "main/registrar_inscricao";
 $routes['patrocine'] = "main/patrocine";
 
 //Rota especial para palestras
-$routes['palestras/visualizar/([[:alnum:]\-\,&:-@_]+)'] = "main/verPalestra/$2";
+$routes['palestras/visualizar/([[:alnum:]\-\,&:-@_\>\<]+)'] = "main/verPalestra/$2";
 
 //Route example (you can also see more at Router documentation)
 //$routes['example'] = "exampleController";
