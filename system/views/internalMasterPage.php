@@ -143,8 +143,6 @@ $(document).ready(function(){
                                 
                 <li><a href="${SYS_BASE_URL}palestrantes">Palestrantes <span>Veja aqui as palestras e workshops para 2012</span></a></li>
                 
-                <li><a href="${SYS_BASE_URL}participe">Envolva-se <span>Ajude a fazer deste evento um grande sucesso</span></a></li>
-            
             </ul>
 
 		</div><!-- End of top menu --> 
