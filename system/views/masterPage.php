@@ -160,9 +160,6 @@ $(document).ready(function(){
                 <li><a class="active" href="${SYS_BASE_URL}">Principal <span>Acompanhe as novidades sobre o evento</span></a></li>
                                 
                 <li><a href="${SYS_BASE_URL}palestrantes">Palestrantes <span>Veja aqui as palestras e workshops para 2012</span></a></li>
-                
-                <li><a href="${SYS_BASE_URL}participe">Envolva-se <span>Ajude a fazer deste evento um grande sucesso</span></a></li>
-            
             </ul>
 
 		</div><!-- End of top menu --> 
@@ -197,12 +194,14 @@ $(document).ready(function(){
 
     <!-- Start of slider caption -->
     <div id="slider_caption">
-		<p>FLISOL CAMPINAS 2012 | Festival Latino Americano de Instalação de Software Livre <br/> Estão abertas as <a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscrições Gratuitas</a> e também a <a href="${SYS_BASE_URL}call_for_papers">Chamada para Trabalhos</a>.</p>
+		<p>FLISOL CAMPINAS 2012 | Festival Latino Americano de Instalação de
+        Software Livre <br/> Estão abertas as <a
+        href="${SYS_BASE_URL}inscricoes_gratuitas">Inscrições Gratuitas</a>!</p>
     
         <!-- Start of slider link -->
         <div id="slider_link">
         
-        <a href="${SYS_BASE_URL}participe">Participe!</a>
+        <a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscreva-se!</a>
             
         </div><!-- End of slider link -->
     
@@ -252,7 +251,7 @@ $(document).ready(function(){
         <!-- Start of footer right -->
         <div class="footer_right">
         
-        <h5>Unordered List</h5>
+        <!-- <h5>Unordered List</h5>
          
          <ul>
          <li><a href="#">Aenean lacinia bibendum</a></li>
@@ -266,7 +265,7 @@ $(document).ready(function(){
          <li>Aenean lacinia bibendum</li>
          </ol>
          
-         
+        -->
         </div><!-- End of footer right -->
     
     </div><!-- End of footer -->
