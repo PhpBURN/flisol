@@ -57,7 +57,7 @@ height="30" style="padding:20px 0 20px 0;"/> -->
 
   </div> End of one fourthn -->
 
-  <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider2" width="960" height="30" style="padding:20px 0 20px 0;"/>           
+  <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider2" width="960" height="30" style="padding:20px 0 20px 0;"/>
 
 </div><!-- End of client wrapper -->
 
@@ -134,5 +134,22 @@ height="30" style="padding:20px 0 20px 0;"/> -->
     </div> End of featured content portfolio 
 
   </div> End of one third -->
+  <div class="one_half_first">
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=-22.85170,-47.04363&amp;output=embed"></iframe><br />
+ </div>
+
+  <div class="one_half">
+    <ul class="contact">
+      <li><span class="contact_title">Quando?</span></li>
+      <li>Sábado | 28 de Abril</li>
+      <li>09:00 - 17:00</li>
+    </ul>
+    <ul class="contact">
+      <li><span class="contact_title">Onde?</span></li>
+      <li><a href="http://www.policamp.edu.br" target="_blank">Falculdade POLICAMP</a></li>
+      <li>Rua Luiz Otávio, 1281 | Pq. Sta. Cândida</li>
+      <li>Campinas | São Paulo</li>
+    </ul>
+  </div>
 
 </div><!-- End of recent post wrapper -->
