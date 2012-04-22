@@ -5,7 +5,9 @@
   
 <!--  <h2>Palestras</h2>-->
   <p style="text-align: center;">Confira aqui as palestras e oficinas que irão acontecer no Flisol Campinas 2012</p>
-  <p style="text-align: center;">Tudo isso acontecerá no dia 28/04/2012 totalmente gratuito na POLICAMP - <a href="#">Inscreva-se já</a> é de graça.</p>
+  <p style="text-align: center;">Tudo isso acontecerá no dia 28/04/2012
+  totalmente gratuito na POLICAMP - <a
+  href="http://www.flisolcampinas.net/inscricoes_gratuitas">Inscreva-se!</a></p>
   
   <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider2" width="960" height="30" style="padding:20px 0 20px 0;"/>           
 
