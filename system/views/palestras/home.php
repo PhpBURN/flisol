@@ -5,7 +5,9 @@
   
 <!--  <h2>Palestras</h2>-->
   <p style="text-align: center;">Confira aqui as palestras e oficinas que irão acontecer no Flisol Campinas 2012</p>
-  <p style="text-align: center;">Tudo isso acontecerá no dia 28/04/2012 totalmente gratuito na POLICAMP - <a href="#">Inscreva-se já</a> é de graça.</p>
+  <p style="text-align: center;">Tudo isso acontecerá no dia 28/04/2012
+  totalmente gratuito na POLICAMP - <a
+  href="http://www.flisolcampinas.net/inscricoes_gratuitas">Inscreva-se!</a></p>
   
   <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider2" width="960" height="30" style="padding:20px 0 20px 0;"/>           
 
@@ -21,37 +23,19 @@
   <!-- Start of portfolio bg -->
   <div id="portfolio-bg" class="clearfix">
 
-    <!-- Start of image grid -->
-    <ul class="image-grid grid clearfix">
-
       <itemPalestra tal:condition="exists: palestras" tal:repeat="item palestras/fetch" tal:omit-tag="">
-        <li class="term-39" data-id="idPalestra-${item/idPalestra}">
+        <div class="accordionButton">${item/titulo}
+                </div><!-- End of accordion button -->
+                <!-- Start of accordion content -->
+                <div class="accordionContent">
+                <p tal:content="item/resumo"></p>
+                <p><a
+href="${SYS_BASE_URL}palestras/visualizar/${item/getUrl}">Saiba mais!</a></p>
+        </div><!-- End of accordion content -->
 
-          <div class="view view-first"><!-- Start of view container -->
-
-
-            <img src="${SYS_BASE_URL}public/img/inscreva-se.jpg" alt="${item/titulo}" width="305" height="227"/>
-
-            <div class="mask"><!-- Start of mask -->
-
-              <h5 tal:content="item/titulo">Titulo da Palestra</h5>
-              <p tal:content="item/resumo">Resumo da palestra</p>
-
-              <a href="${SYS_BASE_URL}palestras/visualizar/${item/getUrl}" class="info" >Mais Detalhes</a> 
-
-            </div><!-- End of mask -->
-
-          </div><!-- end of view container -->
-
-          <span class="tiny"><a href="${SYS_BASE_URL}palestras/visualizar/${item/getUrl}" tal:content="item/titulo">Inscreva-se</a></span>
-
-        </li>
       </itemPalestra>
-      
 
-    </ul><!-- End of image grid -->
-
-  </div><!-- End of portfolio bg -->             
+  </div><!-- End of portfolio bg -->
 
 </div><!-- End of portfolio wrapper -->
 
