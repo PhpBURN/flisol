@@ -26,12 +26,14 @@ class Palestras extends PhpBURN_Core {
   public $descricao; 
   public $data; 
   public $dataCriacao; 
+  public $local;
 
   public function _mapping() {
     $this->getMap()->addField( "idPalestra","idPalestra", "int", 10, array("primary" => 1, "not_null" => 1, "auto_increment" => 1) );
     $this->getMap()->addField( "idPalestrante","idPalestrante", "int", 10, array("not_null" => 1) );
     $this->getMap()->addField( "titulo","titulo", "varchar", 50, array("not_null" => 1) );
     $this->getMap()->addField( "resumo","resumo", "varchar", 255, array("not_null" => 1) );
+    $this->getMap()->addField( "local","local", "varchar", 255, array("not_null" => 1) );
     $this->getMap()->addField( "descricao","descricao", "text", NULL, array("not_null" => 1) );
     $this->getMap()->addField( "data","data", "datetime", NULL, array("not_null" => 1) );
     $this->getMap()->addField( "dataCriacao","dataCriacao", "timestamp", null, array("not_null" => 1, "default_value" => 'CURRENT_TIMESTAMP') );
