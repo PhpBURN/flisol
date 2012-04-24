@@ -1,138 +1,18 @@
-<!-- Start of portfolio wrapper -->
-<div id="portfolio_wrapper">
-
-<!--  <h2>Participe</h2>-->
-
-  <!-- Start of portfolio bg -->
-  <div id="portfolio-bg" class="clearfix">
-
-    <!-- Start of image grid -->
-    <ul class="image-grid grid clearfix">
-
-      <!-- ******************** THIS IS THE START OF PORTFOLIO ITEM ******************** -->
-
-      <li class="term-39" data-id="id-1">
-
-        <div class="view view-first"><!-- Start of view container -->
-
-
-          <img src="${SYS_BASE_URL}public/img/inscreva-se.jpg" alt="Inscreva-se" width="305" height="227"/>
-
-          <div class="mask"><!-- Start of mask -->
-
-            <h5>INSCREVA-SE GRATUITAMENTE</h5>
-            <p>É rápido, gratuito e principalmente, é LIVRE!</p>
-
-            <a href="${SYS_BASE_URL}inscricoes_gratuitas" class="info">Inscreva-se</a> 
-
-          </div><!-- End of mask -->
-
-        </div><!-- end of view container -->
-
-        <span class="tiny"><a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscreva-se</a></span>
-
-      </li>
-
-      <!-- ******************** THIS IS THE END OF PORTFOLIO ITEM ******************** -->
-
-
-
-      <!-- ******************** THIS IS THE START OF PORTFOLIO ITEM ******************** -->
-
-      <li class="term-36" data-id="id-2">
-
-        <div class="view view-first"><!-- Start of view container -->
-
-
-          <img src="${SYS_BASE_URL}public/img/callforpapers.jpg" alt="Call for Papers" width="305" height="227"/>
-
-          <div class="mask"><!-- Start of mask -->
-
-            <h5>Call for Papers</h5>
-            <p>Cadastre sua palestra e/ou workshop e nos ajude a tornar este evento ainda melhor.</p>
-
-            <a href="${SYS_BASE_URL}call_for_papers" class="info">Cadastre-se</a> 
-
-          </div><!-- End of mask -->
-
-        </div><!-- end of view container -->
-
-        <span class="tiny"><a href="${SYS_BASE_URL}call_for_papers">Cadastre sua Palestra/Workshop</a></span>
-
-      </li>
-
-      <!-- ******************** THIS IS THE END OF PORTFOLIO ITEM ******************** -->
-
-
-
-      <!-- ******************** THIS IS THE START OF PORTFOLIO ITEM ******************** -->
-
-      <li class="term-37" data-id="id-3">
-
-        <div class="view view-first"><!-- Start of view container -->
-
-
-          <img src="${SYS_BASE_URL}public/img/patrocine.jpg" alt="Patrocine" width="305" height="227"/>
-
-          <div class="mask"><!-- Start of mask -->
-
-            <h5>Patrocine</h5>
-            <p>Patrocine este evento e ligue o nome de sua empresa ao mundo do Software Livre</p>
-
-            <a href="${SYS_BASE_URL}patrocine" class="info">Patrocine</a> 
-
-          </div><!-- End of mask -->
-
-        </div><!-- end of view container -->
-
-        <span class="tiny"><a href="${SYS_BASE_URL}patrocine">Patrocine</a></span>
-
-      </li>
-
-      <!-- ******************** THIS IS THE END OF PORTFOLIO ITEM ******************** -->
-
-    </ul><!-- End of image grid -->
-
-  </div><!-- End of portfolio bg -->             
-
-</div><!-- End of portfolio wrapper -->
 
 <div class="clear"></div>
 
 <!-- Start of client wrapper -->
 <div id="client_wrapper">
   
+<!--  <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider" width="960"
+height="30" style="padding:20px 0 20px 0;"/> -->
   
+  <h2>Confira a programação do FLISOL Campinas 2012</h2>
 
-  <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider" width="960" height="30" style="padding:20px 0 20px 0;"/>
-  
-  <h2>Palestras</h2>
-  
-  <table class="table-lectures">
-    <tr><td>linuxacessivel.org - Ubuntu para deficiêntes visuais</td></tr>
-    <tr><td>Ubuntu - Linux para seres humanos.</td></tr>
-    <tr><td>Criação Multimídia com o Blender 3D</td></tr>
-    <tr><td>LibreOffice e o DCFOSS da Itaipu Binacional</td></tr>
-    <tr><td>Gerenciamento de Redes com Zabbix</td></tr>
-    <tr><td>Linguagem Python e suas aplicacoes.</td></tr>
-    <tr><td>O que é Linux?</td></tr>
-    <tr><td>Plataforma Radiuino (Rádio + Arduino) para Soluções Sem Fio</td></tr>
-    <tr><td>Workshop – Implementação de uma solução Sem Fio com a Plataforma Radiuino</td></tr>
-    <tr><td>Tem Pinguim na Rede</td></tr>
-    <tr><td>O que é Drupal e como o instalar localmente?</td></tr>
-    <tr><td>Esteganografia com PHP</td></tr>
-    <tr><td>Abra Seu Código</td></tr>
-    <tr><td>Palestra sobre a linguagem Python e suas aplicacoes.</td></tr>
-    <tr><td>HTML, Semântica e Microdata</td></tr>
-    <tr><td>Administração de Servidores Rápido e Prático</td></tr>
-    <tr><td>Ardour plataforma de produção Livre</td></tr>
-    <tr><td>Puppet: Gerenciamento Automágico de Configuração</td></tr>
-    <tr><td>Under-engineer</td></tr>
-    <tr><td>Mão na Massa Inkscape básico</td></tr>
-    <tr><td>Segurança em Aplicações Web e Software Livre (OWASP);</td></tr>
-    <tr><td>Flumotion - Uma solução livre para streaming na web</td></tr>
-  </table>
-  
+  <a href="${SYS_BASE_URL}public/images/GRADE_FLISOL_2012.png">
+    <img src="${SYS_BASE_URL}public/images/GRADE_FLISOL_2012.png" width="960"/>
+  </a>
+
 <!--   Start of one fourth first 
   <div class="one_fourth_first">
 
@@ -177,7 +57,7 @@
 
   </div> End of one fourthn -->
 
-  <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider2" width="960" height="30" style="padding:20px 0 20px 0;"/>           
+  <img src="${SYS_BASE_URL}public/img/divider.png" alt="divider2" width="960" height="30" style="padding:20px 0 20px 0;"/>
 
 </div><!-- End of client wrapper -->
 
@@ -185,8 +65,6 @@
 
 <!-- Start of recent post wrapper -->
 <div id="recent_post_wrapper">
-
-  <h2>Workshops ( Em Breve )</h2>
 
 <!--   Start of one third first 
   <div class="one_third_first">
@@ -256,5 +134,22 @@
     </div> End of featured content portfolio 
 
   </div> End of one third -->
+  <div class="one_half_first">
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=-22.85170,-47.04363&amp;output=embed"></iframe><br />
+ </div>
+
+  <div class="one_half">
+    <ul class="contact">
+      <li><span class="contact_title">Quando?</span></li>
+      <li>Sábado | 28 de Abril</li>
+      <li>09:00 - 17:00</li>
+    </ul>
+    <ul class="contact">
+      <li><span class="contact_title">Onde?</span></li>
+      <li><a href="http://www.policamp.edu.br" target="_blank">Falculdade POLICAMP</a></li>
+      <li>Rua Luiz Otávio, 1281 | Pq. Sta. Cândida</li>
+      <li>Campinas | São Paulo</li>
+    </ul>
+  </div>
 
 </div><!-- End of recent post wrapper -->

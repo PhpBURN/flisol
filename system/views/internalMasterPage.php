@@ -143,8 +143,6 @@ $(document).ready(function(){
                                 
                 <li><a href="${SYS_BASE_URL}palestrantes">Palestrantes <span>Veja aqui as palestras e workshops para 2012</span></a></li>
                 
-                <li><a href="${SYS_BASE_URL}participe">Envolva-se <span>Ajude a fazer deste evento um grande sucesso</span></a></li>
-            
             </ul>
 
 		</div><!-- End of top menu --> 
@@ -222,7 +220,7 @@ $(document).ready(function(){
         <!-- Start of footer right -->
         <div class="footer_right">
         
-        <h5>Unordered List</h5>
+<!--        <h5>Unordered List</h5>
          
          <ul>
          <li><a href="#">Aenean lacinia bibendum</a></li>
@@ -235,7 +233,7 @@ $(document).ready(function(){
          <li><a href="#">Aenean lacinia bibendum</a></li>
          <li>Aenean lacinia bibendum</li>
          </ol>
-         
+    -->     
          
         </div><!-- End of footer right -->
     
