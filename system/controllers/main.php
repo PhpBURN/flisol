@@ -75,6 +75,7 @@ class main extends Controller {
     $viewData = array();
     
 		$palestras = $viewData['palestras'] = new Palestras();
+    $palestras->order('titulo', 'ASC');
     $palestras->find();
     
     $viewData['mainContent'] = $this->loadView('palestras/home', $viewData,true);
