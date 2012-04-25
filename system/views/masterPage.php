@@ -157,7 +157,10 @@ $(document).ready(function(){
         
             <ul class="sf-menu">
             
-                <li><a class="active" href="${SYS_BASE_URL}">Principal <span>Acompanhe as novidades sobre o evento</span></a></li>
+                <li><a href="${SYS_BASE_URL}">Principal <span>Acompanhe as novidades sobre o evento</span></a></li>
+<li><a href="${SYS_BASE_URL}inscricoes_gratuitas">Inscreva-se
+                <span>Faça sua inscrição gratuitamente</span></a></li>
+
                                 
                 <li><a href="${SYS_BASE_URL}palestrantes">Palestrantes <span>Veja aqui as palestras e workshops para 2012</span></a></li>
             </ul>
