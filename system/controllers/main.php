@@ -24,7 +24,6 @@ class main extends Controller {
     $this->areaTitle = "Inscrições Gratuitas";
     $this->breadcrumb = array(
         "Principal" => SYS_BASE_URL,
-        "Participe"=> SYS_BASE_URL . "participe",
         "Inscrições Gratuitas"
     );
     
@@ -53,7 +52,6 @@ class main extends Controller {
 		$this->areaTitle = "Ajude a fazer deste um evento ainda melhor";
     $this->breadcrumb = array(
         "Principal" => SYS_BASE_URL,
-        "Participe" => SYS_BASE_URL . "participe",
         "Apoio"
     );
     
@@ -68,7 +66,6 @@ class main extends Controller {
     $this->areaTitle = "Palestras & Oficinas";
     $this->breadcrumb = array(
         "Principal" => SYS_BASE_URL,
-        "Participe"=> SYS_BASE_URL . "participe",
         "Lista de Palestras e Oficinas"
     );
     
@@ -99,9 +96,8 @@ class main extends Controller {
       $this->areaTitle = $palestra->titulo;
       $this->breadcrumb = array(
           "Principal" => SYS_BASE_URL,
-          "Participe"=> SYS_BASE_URL . "participe",
           "Lista de Palestras e Oficinas" => SYS_BASE_URL . 'palestrantes',
-          $palestra->titulo => $palestra->getUrl()
+          $palestra->titulo
       );
 
       
@@ -123,7 +119,6 @@ class main extends Controller {
     $this->areaTitle = "Chamada para Trabalhos";
     $this->breadcrumb = array(
         "Principal" => SYS_BASE_URL,
-        "Participe" => SYS_BASE_URL . 'participe',
         "Call for Papers"
     );
     
@@ -135,7 +130,6 @@ class main extends Controller {
     $this->areaTitle = "Chamada para Trabalhos";
     $this->breadcrumb = array(
         "Principal" => SYS_BASE_URL,
-        "Participe" => SYS_BASE_URL . 'participe',
         "Confirmação de Inscrição"
     );
     
